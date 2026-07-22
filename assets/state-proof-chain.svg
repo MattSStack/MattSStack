@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+<title id="title">EchoState chain of evidence</title>
+<desc id="desc">A chain from action through authority, policy, evidence, state change, and rollback.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0A1017"/>
+    <stop offset="0.58" stop-color="#0D1621"/>
+    <stop offset="1" stop-color="#071017"/>
+  </linearGradient>
+  <radialGradient id="violetGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#9D4EDD" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#9D4EDD" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="copperGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#B87333" stop-opacity="0.26"/>
+    <stop offset="1" stop-color="#B87333" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="8" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="microGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grain" width="64" height="64" patternUnits="userSpaceOnUse">
+    <circle cx="7" cy="9" r="0.7" fill="#F7F3E8" opacity="0.06"/>
+    <circle cx="31" cy="22" r="0.5" fill="#F7F3E8" opacity="0.05"/>
+    <circle cx="51" cy="44" r="0.65" fill="#9D4EDD" opacity="0.08"/>
+    <circle cx="19" cy="55" r="0.5" fill="#B87333" opacity="0.06"/>
+  </pattern>
+</defs><rect width="1400" height="360" rx="24" fill="url(#bg)"/><circle cx="728.0" cy="187.20000000000002" r="380" fill="url(#violetGlow)" opacity="0.25"/><rect width="1400" height="360" rx="24" fill="url(#grain)"/><text x="64" y="60" fill="#F7F3E8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3">ECHOSTATE / CHAIN OF EVIDENCE</text><circle cx="122" cy="196" r="42" fill="none" stroke="#F7F3E8" stroke-opacity="0.72" stroke-width="2"/><circle cx="122" cy="196" r="10" fill="#F7F3E8" filter="url(#microGlow)"/><text x="122" y="275" text-anchor="middle" fill="#F7F3E8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="1.3">ACTION</text><text x="122" y="298" text-anchor="middle" fill="#F7F3E8" opacity="0.53" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">who / what acted</text><path d="M168,196 C203,172 232,220 278,196" fill="none" stroke="#F7F3E8" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="3 8"/><circle cx="337" cy="196" r="42" fill="none" stroke="#2A7F7A" stroke-opacity="0.72" stroke-width="2"/><circle cx="337" cy="196" r="10" fill="#2A7F7A" filter="url(#microGlow)"/><text x="337" y="275" text-anchor="middle" fill="#F7F3E8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="1.3">AUTHORITY</text><text x="337" y="298" text-anchor="middle" fill="#F7F3E8" opacity="0.53" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">what permitted it</text><path d="M383,196 C418,172 447,220 493,196" fill="none" stroke="#F7F3E8" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="3 8"/><circle cx="552" cy="196" r="42" fill="none" stroke="#9D4EDD" stroke-opacity="0.72" stroke-width="2"/><circle cx="552" cy="196" r="10" fill="#9D4EDD" filter="url(#microGlow)"/><text x="552" y="275" text-anchor="middle" fill="#F7F3E8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="1.3">POLICY</text><text x="552" y="298" text-anchor="middle" fill="#F7F3E8" opacity="0.53" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">which rule applied</text><path d="M598,196 C633,172 662,220 708,196" fill="none" stroke="#F7F3E8" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="3 8"/><circle cx="767" cy="196" r="42" fill="none" stroke="#F5B14C" stroke-opacity="0.72" stroke-width="2"/><circle cx="767" cy="196" r="10" fill="#F5B14C" filter="url(#microGlow)"/><text x="767" y="275" text-anchor="middle" fill="#F7F3E8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="1.3">EVIDENCE</text><text x="767" y="298" text-anchor="middle" fill="#F7F3E8" opacity="0.53" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">what proves it</text><path d="M813,196 C848,172 877,220 923,196" fill="none" stroke="#F7F3E8" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="3 8"/><circle cx="982" cy="196" r="42" fill="none" stroke="#B87333" stroke-opacity="0.72" stroke-width="2"/><circle cx="982" cy="196" r="10" fill="#B87333" filter="url(#microGlow)"/><text x="982" y="275" text-anchor="middle" fill="#F7F3E8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="1.3">STATE</text><text x="982" y="298" text-anchor="middle" fill="#F7F3E8" opacity="0.53" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">what changed</text><path d="M1028,196 C1063,172 1092,220 1138,196" fill="none" stroke="#F7F3E8" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="3 8"/><circle cx="1197" cy="196" r="42" fill="none" stroke="#F7F3E8" stroke-opacity="0.72" stroke-width="2"/><circle cx="1197" cy="196" r="10" fill="#F7F3E8" filter="url(#microGlow)"/><text x="1197" y="275" text-anchor="middle" fill="#F7F3E8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="1.3">ROLLBACK</text><text x="1197" y="298" text-anchor="middle" fill="#F7F3E8" opacity="0.53" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">how it unwinds</text></svg>
